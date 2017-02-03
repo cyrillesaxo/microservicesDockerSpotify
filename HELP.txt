@@ -1,0 +1,11 @@
+Help
+The project is using maven, spring boot, apache camel, swagger and is built on a microservice architecture style.
+
+In order to run the project
+you should run  the following applications in order 
+
+1)  configServer  (it's the app that is getting the property file from  https://github.com/cyrillesaxo/properties.git)
+2)  eurekaServer (http://localhost:8761/)
+3)  hystrixServer  (http://localhost:9023/)
+4)  location (http://localhost:8080/docs/index.html is the swagger url )  // the microservice
+
